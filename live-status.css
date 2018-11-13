@@ -1,0 +1,23 @@
+.live_status {
+  display: none;
+  /* default */
+  align-content: center;
+  margin-bottom: 25px;
+  margin-top: 10px; }
+  .live_status .indicator {
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    display: flex;
+    align-self: center;
+    background-color: red;
+    animation: 1s ease-in-out infinite pulse;
+    margin-right: 10px; }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 red; }
+  100% {
+    box-shadow: 0 0 1px 5px rgba(255, 0, 0, 0.1); } }
+
+/*# sourceMappingURL=live-status.css.map */
